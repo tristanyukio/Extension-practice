@@ -1,0 +1,37 @@
+{
+  "name": "my-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "build": "webpack",
+    "dev": "webpack && nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@docker/docker-mui-theme": "^0.0.11",
+    "@docker/extension-api-client": "^0.3.4",
+    "@emotion/react": "^11.11.1",
+    "@mui/material": "^5.14.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.4",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@docker/extension-api-client-types": "^0.3.4",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.18",
+    "@types/react-dom": "^18.2.7",
+    "jest": "^29.6.2",
+    "typescript": "^5.1.6"
+  }
+}
